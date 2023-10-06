@@ -19,12 +19,7 @@ h2 {
     color: #F9F8FF;
 }
 
-p {
-    font-size: 1.1em;
-    color: #F9F8FF;
-}
-
-li {
+p, li {
     font-size: 1.1em;
     color: #F9F8FF;
 }
@@ -42,4 +37,10 @@ em {
 .contact-cta__link {
     background: linear-gradient(#8E86B5, #ACAEED);
     color: white;
+    border-radius: 50px;
+}
+
+.about {
+    border-right: 1px solid #8e86b5;
+    border-bottom: 1px solid #8e86b5;
 }
