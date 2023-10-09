@@ -1,27 +1,8 @@
+/* =============== GENERAL STYLES =============== */
 body {
     font-family: 'Manrope', sans-serif;
     font-size: 1em;
     background-color: #1F2039;
-}
-
-.header, .footer {
-    background-color: white;
-    color: #242424;
-}
-
-h1 {
-    font-size: 3.5em;
-    color: #A5B4FC;
-    font-family: 'Montserrat', sans-serif;
-}
-
-h2 {
-    color: #F9F8FF;
-}
-
-p, li {
-    font-size: 1.1em;
-    color: #F9F8FF;
 }
 
 a {
@@ -34,13 +15,59 @@ em {
     font-style: normal;
 }
 
+/* =============== HEADER STYLES =============== */
+.header {
+    background-color: white;
+    color: #242424;
+}
+
+.header__link:hover {
+    text-decoration: underline;
+}
+
+/* =============== FOOTER STYLES =============== */
+.footer {
+    background-color: white;
+    color: #242424;
+}
+
+.footer__social-icon:hover {
+    opacity: 0.5;
+}
+
+/* =============== MAIN CONTENT STYLES =============== */
+.main-content__title {
+    font-size: 3.5em;
+    color: #A5B4FC;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.main-content__subtitle {
+    color: #F9F8FF;
+}
+
+.main-content__text,
+.main-content__list li {
+    font-size: 1.1em;
+    color: #F9F8FF;
+}
+
+/* =============== CONTACT CTA STYLES =============== */
 .contact-cta__link {
     background: linear-gradient(#8E86B5, #ACAEED);
     color: white;
     border-radius: 50px;
 }
 
+.contact-cta__link:hover {
+    background: linear-gradient(#696484, #8788BA);
+    text-decoration: none;
+}
+
+/* =============== ABOUT SECTION STYLES =============== */
 .about {
     border-right: 1px solid #8e86b5;
     border-bottom: 1px solid #8e86b5;
 }
+
+
