@@ -27,6 +27,13 @@ em {
     padding: 20px 50px 20px 50px;
 }
 
+.header__nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
 .header__link:hover {
     text-decoration: underline;
 }
@@ -49,8 +56,13 @@ em {
     margin: auto;
 }
 
-.main-content__section {
+.main-content--accueil .main-content__section {
     padding: 80px;
+    width: 50%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
 
 .main-content__title {
@@ -73,6 +85,27 @@ em {
 .main-content__list {
     margin-top: 30px;
 }
+
+.main-content__project {
+    background-color: #FFFFFF;
+    padding: 80px;
+}
+
+.main-content__project .main-content__subtitle {
+    text-align: center;
+    color: #1F2039;
+    margin-bottom: 80px;
+}
+
+
+.main-content__project div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 15px;
+}
+
 
 /* =============== CONTACT CTA STYLES =============== */
 .contact-cta__link {
