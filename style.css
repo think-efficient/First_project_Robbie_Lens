@@ -57,12 +57,14 @@ em {
 }
 
 .main-content--accueil .main-content__section {
-    padding: 80px;
+    padding: 80px 0px;
     width: 50%;
     margin: auto;
     display: flex;
     flex-direction: row;
+    justify-content: center;
     align-items: center;
+    gap: 150px;
 }
 
 .main-content__title {
@@ -98,14 +100,20 @@ em {
 }
 
 
-.main-content__project div {
+.main-content__project-images {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: center;
+    align-items: center;
     gap: 15px;
-    margin-bottom: 15px;
 }
 
+.main-content__about {
+    border-right: 1px solid #8e86b5;
+    border-bottom: 1px solid #8e86b5;
+    padding: 50px;
+}
 
 /* =============== CONTACT CTA STYLES =============== */
 .contact-cta__link {
@@ -119,11 +127,5 @@ em {
     text-decoration: none;
 }
 
-/* =============== ABOUT SECTION STYLES =============== */
-.about {
-    border-right: 1px solid #8e86b5;
-    border-bottom: 1px solid #8e86b5;
-    padding: 50px;
-}
 
 
