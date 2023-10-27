@@ -1,13 +1,29 @@
-/* =============== GENERAL STYLES =============== */
+/* || RESET */
 
 * {
     margin: 0;
 }
 
+/* || VARIABLES */
+
+/* || UTILITY CLASSES */
+
+/* || GENERAL STYLES */
+
 body {
     font-family: 'Manrope', sans-serif;
     font-size: 1em;
     background-color: #1F2039;
+}
+
+h1 {
+    font-size: 3.5em;
+    color: #a5b4fc;
+    font-family: 'Montserrat', sans-serif;
+}
+  
+h2 {
+    color: #f9f8ff;
 }
 
 a {
@@ -20,43 +36,22 @@ em {
     font-style: normal;
 }
 
-/* =============== HEADER STYLES =============== */
+/* || BLOCKS */
+
 .header {
     background-color: white;
     color: #242424;
     padding: 20px 50px 20px 50px;
 }
 
-.header__nav {
+.nav {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
 }
 
-.header__link:hover {
-    text-decoration: underline;
-}
-
-/* =============== FOOTER STYLES =============== */
-.footer {
-    background-color: white;
-    color: #242424;
-    padding: 20px 50px 20px 50px;
-}
-
-.footer__social-icon:hover {
-    opacity: 0.5;
-}
-
-/* =============== MAIN CONTENT STYLES =============== */
-
-.main-content--a-propos {
-    width: 50%;
-    margin: auto;
-}
-
-.main-content--accueil .main-content__section {
+.intro {
     padding: 80px 0px;
     width: 50%;
     margin: auto;
@@ -67,65 +62,127 @@ em {
     gap: 150px;
 }
 
-.main-content__title {
+.projects {
+    background-color: #FFFFFF;
+    padding: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer {
+    background-color: white;
+    color: #242424;
+    padding: 20px 50px 20px 50px;
+}
+
+/* || ELEMENTS */
+
+.nav__link:hover {
+    text-decoration: underline;
+}
+
+.intro__title {
     font-size: 3.5em;
     color: #A5B4FC;
     font-family: 'Montserrat', sans-serif;
 }
 
-.main-content__subtitle {
-    color: #F9F8FF;
-    margin-top: 30px;
-}
-
-.main-content__text,
-.main-content__list-item {
+.intro__text {
     font-size: 1.1em;
     color: #F9F8FF;
 }
 
-.main-content__list {
-    margin-top: 30px;
+.cta__link {
+    background: linear-gradient(#8E86B5, #ACAEED);
+    color: white;
+    border-radius: 50px;
 }
 
-.main-content__project {
-    background-color: #FFFFFF;
-    padding: 80px;
+.cta__link:hover {
+    background: linear-gradient(#696484, #8788BA);
+    text-decoration: none;
 }
 
-.main-content__project .main-content__subtitle {
+.projects__subtitle {
     text-align: center;
     color: #1F2039;
     margin-bottom: 80px;
 }
 
-
-.main-content__project-images {
+.projects__gallery {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     gap: 15px;
+    max-width: 70%;
 }
 
-.main-content__about {
+.about__title {
+    color: #A5B4FC;
+    font-family: Montserrat;
+    font-size: 55px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.about__description {
     border-right: 1px solid #8e86b5;
     border-bottom: 1px solid #8e86b5;
     padding: 50px;
 }
 
-/* =============== CONTACT CTA STYLES =============== */
-.contact-cta__link {
-    background: linear-gradient(#8E86B5, #ACAEED);
-    color: white;
-    border-radius: 50px;
+.about__text {
+    color: #F9F8FF;
+    font-family: Manrope;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
 
-.contact-cta__link:hover {
-    background: linear-gradient(#696484, #8788BA);
-    text-decoration: none;
+.about__subtitle {
+    color: #F9F8FF;
+    font-family: Manrope;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 30px;
 }
+
+.about__list {
+    margin-top: 30px;
+}
+
+.about__list-item {
+    color: #F9F8FF;
+    font-family: Manrope;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.footer__social-icon:hover {
+    opacity: 0.5;
+}
+
+/* || Modifiers */
+
+.main--a-propos {
+    width: 50%;
+    margin: auto;
+}
+
+
+
+
+
 
 
 
