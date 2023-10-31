@@ -6,14 +6,20 @@
 
 /* || VARIABLES */
 
+
+
+
+
 /* || UTILITY CLASSES */
 
 /* || GENERAL STYLES */
 
 body {
-    font-family: 'Manrope', sans-serif;
-    font-size: 1em;
     background-color: #1F2039;
+}
+
+section {
+    padding: 80px;
 }
 
 h1 {
@@ -21,10 +27,7 @@ h1 {
     color: #a5b4fc;
     font-family: 'Montserrat', sans-serif;
 }
-  
-h2 {
-    color: #f9f8ff;
-}
+
 
 a {
     color: black;
@@ -41,7 +44,7 @@ em {
 .header {
     background-color: white;
     color: #242424;
-    padding: 20px 50px 20px 50px;
+    padding: 20px 50px;
 }
 
 .nav {
@@ -52,7 +55,6 @@ em {
 }
 
 .intro {
-    padding: 80px 0px;
     width: 50%;
     margin: auto;
     display: flex;
@@ -62,19 +64,16 @@ em {
     gap: 150px;
 }
 
-.projects {
+.gallery {
     background-color: #FFFFFF;
-    padding: 80px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    width: 100%;
+    padding: 0;              
 }
 
 .footer {
     background-color: white;
     color: #242424;
-    padding: 20px 50px 20px 50px;
+    padding: 20px 50px;
 }
 
 /* || ELEMENTS */
@@ -103,22 +102,6 @@ em {
 .cta__link:hover {
     background: linear-gradient(#696484, #8788BA);
     text-decoration: none;
-}
-
-.projects__subtitle {
-    text-align: center;
-    color: #1F2039;
-    margin-bottom: 80px;
-}
-
-.projects__gallery {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    gap: 15px;
-    max-width: 70%;
 }
 
 .about__title {
@@ -168,6 +151,37 @@ em {
     line-height: normal;
 }
 
+.gallery__container {
+    max-width: 1008px;
+    margin: 0 auto;
+    padding: 80px; 
+}
+
+.gallery__content {
+    display: grid;
+    grid-template-columns: 326px 326px 326px;
+    grid-template-rows: 311px 311px; 
+    gap: 15px;                          
+    width: 100%;
+}
+
+.gallery__subtitle {
+    color: #1F2039;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 400;          
+    width: 100%;
+    margin-bottom: 66px;    
+}
+
+.gallery__image {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
 .footer__social-icon:hover {
     opacity: 0.5;
 }
@@ -179,10 +193,25 @@ em {
     margin: auto;
 }
 
+.intro--portfolio {
+    padding: 140px 168px 100px 168px;
+    text-align: left;
+}
 
+.gallery__container--landscape {
+    max-width: 1008px;
+    margin: 0 auto;
+    padding: 53px 80px; 
+}
 
+.gallery__container--portrait {
+    max-width: 1008px;
+    margin: 0 auto;
+    padding: 0px 80px 53px 80px; 
+}
 
-
-
-
-
+.gallery__subtitle--portrait,
+.gallery__subtitle--landscape {
+    text-align: left;           
+    margin-bottom: 53px;    
+}
