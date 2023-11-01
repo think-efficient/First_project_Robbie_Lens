@@ -1,18 +1,16 @@
 /* || RESET */
 
+
 * {
     margin: 0;
 }
 
 /* || VARIABLES */
 
-
-
-
-
 /* || UTILITY CLASSES */
 
 /* || GENERAL STYLES */
+
 
 body {
     background-color: #1F2039;
@@ -41,6 +39,7 @@ em {
 
 /* || BLOCKS */
 
+
 .header {
     background-color: white;
     color: #242424;
@@ -49,7 +48,6 @@ em {
 
 .nav {
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
     align-items: center;
 }
@@ -77,6 +75,11 @@ em {
 }
 
 /* || ELEMENTS */
+
+
+.nav__link {
+    margin-left: 130px;
+}
 
 .nav__link:hover {
     text-decoration: underline;
@@ -182,6 +185,16 @@ em {
     object-fit: cover;
 }
 
+.footer__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer__social-icon {
+    margin-left: 30px;
+}
+
 .footer__social-icon:hover {
     opacity: 0.5;
 }
@@ -194,7 +207,8 @@ em {
 }
 
 .intro--portfolio {
-    padding: 140px 168px 100px 168px;
+    max-width: 1008px;
+    margin: 0 auto;
     text-align: left;
 }
 
