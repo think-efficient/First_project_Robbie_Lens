@@ -1,0 +1,6 @@
+{
+    "workbench.activityBar.iconClickBehavior": "toggle",
+    "workbench.activityBar.location": "side",
+    "workbench.iconTheme": "vscode-icons",
+    "workbench.sideBar.location": "left"
+}
