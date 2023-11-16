@@ -92,13 +92,22 @@ a {
     margin-bottom: 46px;
 }
 
-.cta__link {
+.cta__button {
     color: #FFFFFF;
     font-family: Montserrat;
     font-size: 17px;
     font-style: normal;
     text-transform: uppercase;
-}
+    background: linear-gradient(#8e86b5, #acaeed);
+    border: none;
+    border-radius: 50px;
+    padding: 20px 30px;
+  }
+  
+  .cta__button:hover {
+    background: linear-gradient(#696484, #8788ba);
+    text-decoration: none;
+  }
 
 .about__title {
     color: #A5B4FC;
