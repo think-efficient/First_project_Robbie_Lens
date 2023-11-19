@@ -208,6 +208,14 @@ a {
     padding: 53px 80px;
 }
 
+.gallery__content--landscape {
+    display: grid;
+    grid-template-columns: 326px 326px 326px;
+    grid-template-rows: 311px 311px 311px;
+    gap: 15px;
+    width: 100%;
+}
+
 .gallery__container--portrait {
     max-width: 1008px;
     margin: 0 auto;
