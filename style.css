@@ -50,10 +50,19 @@ a {
     gap: 150px;
 }
 
+.about {
+    padding: 80px;
+    width: 668px;
+}
+
 .gallery {
     background-color: #FFFFFF;
     width: 100%;
     padding: 0;
+}
+
+.cta {
+    display: inline-block;
 }
 
 .footer {
@@ -102,12 +111,12 @@ a {
     border: none;
     border-radius: 50px;
     padding: 20px 30px;
-  }
-  
-  .cta__button:hover {
+}
+
+.cta__button:hover {
     background: linear-gradient(#696484, #8788ba);
     text-decoration: none;
-  }
+}
 
 .about__title {
     color: #A5B4FC;
@@ -117,9 +126,8 @@ a {
 }
 
 .about__description {
-    border-right: 1px solid #8e86b5;
-    border-bottom: 1px solid #8e86b5;
-    padding: 50px;
+    position: relative; /* Necessary for the absolute positioning of child elements */
+    padding: 101px 77px 75px 75px;
 }
 
 .about__text {
@@ -230,4 +238,27 @@ a {
     font-family: Manrope;
     font-size: 30px;
     font-weight: 400;
+}
+
+.about__description-border--right {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    height: 407px;
+    width: 1px;
+    background-color: #A5B4FC;
+}
+
+.about__description-border--bottom {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 315px;
+    height: 1px;
+    background-color: #A5B4FC;
+}
+
+.cta--about {
+    margin-top: 80px;
+    margin-left: 246px
 }
