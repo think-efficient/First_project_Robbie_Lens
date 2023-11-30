@@ -1,0 +1,78 @@
+@import 'base.css';
+
+/* || BLOCKS */
+
+.about {
+    padding: 80px;
+    width: 668px;
+}
+
+
+/* || ELEMENTS */
+
+.about__title {
+    color: #A5B4FC;
+    font-family: Montserrat;
+    font-size: 55px;
+    font-weight: 400;
+}
+
+.about__description {
+    position: relative; /* Necessary for the absolute positioning of child elements */
+    padding: 101px 77px 75px 75px;
+}
+
+.about__text {
+    color: #F9F8FF;
+    font-family: Manrope;
+    font-size: 16px;
+}
+
+.about__subtitle {
+    color: #F9F8FF;
+    font-family: Manrope;
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 30px;
+}
+
+.about__list {
+    margin-top: 30px;
+}
+
+.about__list-item {
+    color: #F9F8FF;
+    font-family: Manrope;
+    font-size: 16px;
+}
+
+
+/* || Modifiers */
+
+.main--a-propos {
+    width: 50%;
+    margin: auto;
+}
+
+.about__description-border--right {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    height: 407px;
+    width: 1px;
+    background-color: #A5B4FC;
+}
+
+.about__description-border--bottom {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 315px;
+    height: 1px;
+    background-color: #A5B4FC;
+}
+
+.cta--about {
+    margin-top: 80px;
+    margin-left: 246px
+}
