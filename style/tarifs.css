@@ -1,1 +1,54 @@
 @import 'base.css';
+
+/* || BLOCKS */
+
+.pricing-table {
+    border-collapse: collapse;
+    margin: auto;
+}
+
+
+/* || ELEMENTS */
+
+.pricing-table__head {
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 16px;
+    border: 1px solid #A5B4FC;
+    padding-top: 9px;
+    padding-bottom: 13px;
+}
+
+.pricing-table__cell {
+    color: #F9F8FF;
+    font-family: Manrope;
+    font-size: 14px;
+    border: 1px solid #A5B4FC;
+    text-align: center;
+    height: 145px;
+}
+
+
+/* || Modifiers */
+
+.pricing-table__head--col0 {
+    width: 278px;
+}
+
+.pricing-table__head--col1 {
+    width: 381px;
+}
+
+.pricing-table__head--col2 {
+    width: 381px;
+}
+
+.pricing-table__cell--col0row1 {
+    padding: 0px 72px 0px 73px;
+    text-align: start;
+}
+
+.pricing-table__cell--col0row2 {
+    padding: 0px 69px 0px 69px;
+    text-align: start;
+}
