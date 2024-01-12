@@ -17,7 +17,6 @@
     flex-direction: column;
     width: 525px;
     margin: auto;
-    margin-top: 159px;
     margin-bottom: 194px;
     color: white;
 }
@@ -61,9 +60,20 @@
 }
 
 .form__label {
+    color: #F9F8FF;
+    font-family: Manrope;
+    font-size: 18px;
     margin-bottom: 10px;
 }
 
+.form__subtitle {
+    color: #A5B4FC;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 35px;
+    margin-top: 65px;
+    margin-bottom: 52px;
+}
 
 /* || Modifiers */
 
