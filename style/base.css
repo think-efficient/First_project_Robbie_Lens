@@ -47,7 +47,9 @@ a {
 }
 
 .cta {
-    display: inline-block;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
 
 /* || ELEMENTS */

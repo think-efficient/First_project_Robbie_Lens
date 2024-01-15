@@ -83,3 +83,28 @@
     object-fit: cover;
 }
 
+.form__field--message {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 44px;
+}
+
+.cta__button--form {
+    width: 216px;
+    height: 65px; 
+    color: #FFFFFF;
+    font-family: Montserrat;
+    font-size: 17px;
+    font-style: normal;
+    text-transform: uppercase;
+    background: linear-gradient(#8e86b5, #acaeed);
+    border: none;
+    border-radius: 50px;
+    padding: 20px 30px;
+}
+
+.cta__button--form:hover {
+    background: linear-gradient(#696484, #8788ba);
+    text-decoration: none;
+}
