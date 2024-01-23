@@ -14,17 +14,7 @@ body {
 
 /* || BLOCKS */
 
-.header {
-    background-color: #FFFFFF;
-    color: #242424;
-    padding: 20px 50px;
-}
 
-.nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
 
 .footer {
     background-color: #FFFFFF;
@@ -45,18 +35,6 @@ body {
 }
 
 /* || ELEMENTS */
-
-.nav__link {
-    color: #1F2039;
-    font-family: Manrope;
-    font-size: 18px;
-    margin-left: 130px;
-    text-decoration: none;
-}
-
-.nav__link:hover {
-    text-decoration: underline;
-}
 
 .footer__container {
     display: flex;

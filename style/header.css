@@ -1,0 +1,28 @@
+/* header.css */
+
+.header {
+    padding: 20px 50px;
+    background-color: white;
+}
+
+.header_nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__menu {
+    display: flex;
+}
+
+.header__menu-link {
+    margin-left: 130px;
+    color: #242424;
+    font-family: Manrope;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.header__menu-link:hover {
+    text-decoration: underline;
+}
