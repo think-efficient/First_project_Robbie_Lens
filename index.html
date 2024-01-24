@@ -5,17 +5,17 @@
         <meta charset="utf-8">
         <title>Accueil – Robbie Lens Photographie</title>
         <link rel="stylesheet" href="style/index.css">
-        <link rel="stylesheet" href="style/header.css">
+        <link rel="stylesheet" href="style/main.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Manrope&family=Montserrat&display=swap" rel="stylesheet">
     </head>
     
-    <body>
+    <body class="page">
 
         <!-- Header Block -->
         <header class="header">
-            <nav class="header_nav">
+            <nav class="header__nav">
                 <img class="header__logo" src="images/logo.png" alt="Logo de Robbie Lens Photographie">
                 <div class="header__menu">
                     <a class="header__menu-link" href="index.html">Accueil</a>
@@ -26,31 +26,26 @@
             </nav>
         </header>
 
-        <!-- Main Content Section -->
-        <main class="main main--accueil">
+        <!-- Main Content -->
+        <main>
 
-            <!-- Introduction Section -->
+            <!-- Introduction Block -->
             <section class="intro">
-
-                <div class="intro__info">
+                <div class="intro__container">
                     <h1 class="intro__title">Robbie Lens Photographie</h1>
-
                     <p class="intro__text">
                         Où professionalisme s’allie avec passion. 
                         Depuis plus de 5 ans maintenant, 
                         j’exerce mon métier avec la passion qui m’anime : 
                         capturer l’essence de chaque instant.
                     </p>
-
-                    <div class="cta">
-                        <button class="cta__button">UN PROJET ? ÉCRIVEZ-MOI</button>
+                    <div class="button-wrapper">
+                        <button class="button">UN PROJET ? ÉCRIVEZ-MOI</button>
                     </div>
                 </div>
-
-                <div class="intro__image">
-                    <img src="images/robbie-lens.png" alt="Photographie par Robbie Lens">
+                <div class="intro__image-wrapper">
+                    <img class="intro__image" src="images/robbie-lens.png" alt="Photographie par Robbie Lens">
                 </div>
-                
             </section>
 -
             <!-- Gallery Section -->
@@ -92,8 +87,8 @@
                         <textarea class="form__textarea" name="message" id="message"></textarea>
                     </div>
 
-                    <div class="cta">
-                        <input class="cta__button--form" type="submit" value="ENVOYER">
+                    <div class="button-wrapper">
+                        <input class="button" type="submit" value="ENVOYER">
                     </div>
                     
                 </form>

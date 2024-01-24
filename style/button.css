@@ -1,0 +1,23 @@
+/* button.css */
+
+.button-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.button {
+    padding: 15px 25px;
+    border-radius: 50px;
+    border: none;
+    color: #FFFFFF;
+    font-family: Montserrat;
+    font-size: 16px;
+    text-transform: uppercase;
+    background: linear-gradient(#8e86b5, #acaeed);
+}
+
+.button:hover {
+    background: linear-gradient(#696484, #8788ba);
+    text-decoration: none;
+}

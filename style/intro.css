@@ -1,0 +1,26 @@
+.intro {
+    width: 50%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 150px;
+    padding: 80px;
+}
+
+.intro__title {
+    color: #A5B4FC;
+    font-family: Montserrat;
+    font-size: 55px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.intro__text {
+    color: #F9F8FF;
+    font-family: Manrope;
+    font-size: 20px;
+    line-height: normal;
+    margin-bottom: 46px;
+}
