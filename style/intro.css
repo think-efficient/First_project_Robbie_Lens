@@ -24,3 +24,10 @@
     line-height: normal;
     margin-bottom: 46px;
 }
+
+.intro--portfolio {
+    max-width: 1008px;
+    margin: 0 auto;
+    text-align: left;
+    padding: 80px;
+}

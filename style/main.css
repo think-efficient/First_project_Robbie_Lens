@@ -1,3 +1,21 @@
 @import url("header.css");
 @import url("intro.css");
+@import url("form.css");
+@import url("gallery.css");
 @import url("button.css");
+@import url("footer.css");
+
+
+/* || RESET */
+
+* {
+    margin: 0;
+}
+
+/* || GENERAL STYLES */
+
+.page {
+    background-color: #1F2039;
+}
+
+
