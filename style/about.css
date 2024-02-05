@@ -1,25 +1,22 @@
-@import 'base.css';
-
-/* || BLOCKS */
-
 .about {
-    padding: 80px;
-    width: 668px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    max-width: 668px;
+    margin-inline: auto;
 }
 
-
-/* || ELEMENTS */
-
 .about__title {
+    padding-inline-start: 20px;
     color: #A5B4FC;
     font-family: Montserrat;
     font-size: 55px;
     font-weight: 400;
 }
 
-.about__description {
-    position: relative; /* Necessary for the absolute positioning of child elements */
+.about__container {
+    position: relative;
     padding: 101px 77px 75px 75px;
+    margin-bottom: 30px;
 }
 
 .about__text {
@@ -46,15 +43,7 @@
     font-size: 16px;
 }
 
-
-/* || Modifiers */
-
-.main--a-propos {
-    width: 50%;
-    margin: auto;
-}
-
-.about__description-border--right {
+.about__border--right {
     position: absolute;
     right: 0;
     bottom: 0;
@@ -63,7 +52,7 @@
     background-color: #A5B4FC;
 }
 
-.about__description-border--bottom {
+.about__border--bottom {
     position: absolute;
     bottom: 0;
     right: 0;
@@ -71,4 +60,3 @@
     height: 1px;
     background-color: #A5B4FC;
 }
-
