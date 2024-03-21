@@ -16,6 +16,7 @@
     font-size: 14px;
     text-transform: uppercase;
     background: linear-gradient(#8e86b5, #acaeed);
+    text-decoration: none;
 }
 
 .button:hover {
