@@ -1,7 +1,7 @@
 /* header.css */
 
 .header {
-    padding: 20px 50px;
+    padding: 1.25rem 3.125rem;
     background-color: white;
 }
 
@@ -11,18 +11,40 @@
     align-items: center;
 }
 
-.header__menu {
-    display: flex;
-}
-
 .header__menu-link {
-    margin-left: 130px;
+    display: inline-block;
+    padding: 0.625rem 0;
+    margin-left: 8.125rem;
     color: #242424;
     font-family: Manrope;
-    font-size: 18px;
+    font-size: 1.125rem;
     text-decoration: none;
 }
 
 .header__menu-link:hover {
     text-decoration: underline;
+}
+
+@media (max-width: 375px) {
+    .header__nav {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .header__menu {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 1.5625rem;
+    }
+
+    .header__menu-link {
+        margin-left: 0;
+    }
+
+/* Modifier for hiding the 'Tarifs' link on mobile devices */
+
+    .header__menu-link--hidden-mobile {
+        display: none;
+    }
 }
