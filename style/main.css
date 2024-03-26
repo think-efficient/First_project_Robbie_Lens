@@ -1,4 +1,5 @@
 @import url("header.css");
+@import url("headings.css");
 @import url("intro.css");
 @import url("form.css");
 @import url("gallery.css");
@@ -20,5 +21,3 @@
 .page {
     background-color: #1F2039;
 }
-
-

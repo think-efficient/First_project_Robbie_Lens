@@ -1,0 +1,36 @@
+.title {
+    color: #A5B4FC;
+    font-family: Montserrat;
+    font-size: 55px;
+    font-weight: 400;
+}
+
+.service-title-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 1040px;
+    margin: 0 auto;
+    margin-top: 146px;
+    margin-bottom: 112px;
+}
+
+.portfolio-title-wrapper {
+    max-width: 1008px;
+    margin: 0 auto;
+    text-align: left;
+    padding: 80px;
+}
+
+/* Modifier for title */
+
+.intro--title {
+    margin-bottom: 20px;
+}
+
+.about--title {
+    padding-inline-start: 20px;
+    margin-bottom: 0px;
+}
+

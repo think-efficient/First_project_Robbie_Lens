@@ -5,14 +5,6 @@
     margin-inline: auto;
 }
 
-.about__title {
-    padding-inline-start: 20px;
-    color: #A5B4FC;
-    font-family: Montserrat;
-    font-size: 55px;
-    font-weight: 400;
-}
-
 .about__container {
     position: relative;
     padding: 101px 77px 75px 75px;

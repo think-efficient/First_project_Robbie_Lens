@@ -1,21 +1,3 @@
-.service-title-wrapper {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    width: 1040px;
-    margin: 0 auto;
-    margin-top: 146px;
-    margin-bottom: 112px;
-}
-
-.service-title {
-    color: #A5B4FC;
-    font-family: Montserrat;
-    font-size: 55px;
-    font-weight: 400;
-}
-
 .service-options-container {
     display: flex;
     flex-direction: row;
@@ -32,7 +14,7 @@
     border-bottom: 1px #A5B4FC solid;
 }
 
-.service-option__title {
+.service-option__category {
     color: #A5B4FC;
     font-family: Montserrat;
     font-size: 20px;
