@@ -1,3 +1,5 @@
+/* title */
+
 .title {
     color: #A5B4FC;
     font-family: Montserrat;
@@ -25,12 +27,59 @@
 
 /* Modifier for title */
 
-.intro--title {
+.title--intro {
     margin-bottom: 20px;
 }
 
-.about--title {
+.title--about {
     padding-inline-start: 20px;
     margin-bottom: 0px;
 }
 
+/* ---------------------------- */
+
+/* subtitle */
+
+.subtitle {
+    color: #1F2039;
+    font-family: Montserrat;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+/* Modifier for subtitle */
+
+.subtitle--gallery-home {
+    margin-bottom: 66px;
+    text-align: center;
+}
+
+.subtitle--form {
+    margin-top: 65px;
+    margin-bottom: 52px;
+    text-align: center;
+    color: #A5B4FC;
+}
+
+.subtitle--about {
+    margin-top: 30px;
+    color: #F9F8FF;
+    font-family: Manrope;
+}
+
+.subtitle--info-table {
+    margin-bottom: 38px;
+    color: #A5B4FC;
+}
+
+.subtitle--gallery-landscape {
+    margin-bottom: 53px;
+    text-align: left;
+    font-family: Manrope;
+}
+
+.subtitle--gallery-portrait {
+    margin-bottom: 53px;
+    text-align: left;
+    font-family: Manrope;
+}

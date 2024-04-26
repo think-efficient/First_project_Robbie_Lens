@@ -4,14 +4,6 @@
     margin-bottom: 374px;
 }
 
-.info-table__subtitle {
-    color: #A5B4FC;
-    font-family: Montserrat;
-    font-size: 35px;
-    font-weight: 400;
-    margin-bottom: 38px;
-}
-
 .info-table {
     border-collapse: collapse;
     width: 100%;

@@ -41,15 +41,6 @@
     margin-bottom: 10px;
 }
 
-.form__subtitle {
-    color: #A5B4FC;
-    text-align: center;
-    font-family: Montserrat;
-    font-size: 35px;
-    margin-top: 65px;
-    margin-bottom: 52px;
-}
-
 .form__field--message {
     flex: 1;
     display: flex;
