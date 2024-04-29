@@ -1,18 +1,17 @@
 .intro {
-    width: 50%;
-    margin: auto;
     display: flex;
     flex-direction: row;
     justify-content: center;
-    align-items: center;
-    gap: 150px;
+    align-items: center;  
+    width: 50%;
+    margin: auto;
     padding: 80px;
+    gap: 150px;
 }
 
 .intro__text {
-    color: #F9F8FF;
-    font-family: Manrope;
-    font-size: 20px;
-    line-height: normal;
-    margin-bottom: 46px;
+    color: var(--color-accent);
+    font-family: var(--font-family-secondary);
+    font-size: var(--font-size-lg);
+    margin-bottom: 50px;
 }

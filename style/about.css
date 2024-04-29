@@ -12,9 +12,9 @@
 }
 
 .about__text {
-    color: #F9F8FF;
-    font-family: Manrope;
-    font-size: 16px;
+    color: var(--color-text);
+    font-family: var(--font-family-secondary);
+    font-size: var(--font-size-base);
 }
 
 .about__list {
@@ -22,9 +22,9 @@
 }
 
 .about__list-item {
-    color: #F9F8FF;
-    font-family: Manrope;
-    font-size: 16px;
+    color: var(--color-text);
+    font-family: var(--font-family-secondary);
+    font-size: var(--font-size-base);
 }
 
 .about__border--right {
@@ -33,7 +33,7 @@
     bottom: 0;
     height: 407px;
     width: 1px;
-    background-color: #A5B4FC;
+    background-color: var(--color-secondary);
 }
 
 .about__border--bottom {
@@ -42,5 +42,5 @@
     right: 0;
     width: 315px;
     height: 1px;
-    background-color: #A5B4FC;
+    background-color: var(--color-secondary);
 }

@@ -10,36 +10,36 @@
 .service-option {
     width: 278px;
     height: 295px;
-    border-right: 1px #A5B4FC solid;
-    border-bottom: 1px #A5B4FC solid;
+    border-right: 1px var(--color-secondary) solid;
+    border-bottom: 1px var(--color-secondary) solid;
 }
 
 .service-option__category {
-    color: #A5B4FC;
-    font-family: Montserrat;
-    font-size: 20px;
-    font-weight: 400;
+    color: var(--color-secondary);
+    font-family: var(--font-family-primary);
+    font-size: var(--font-size-lg);
+    font-weight: var(--font-weight-normal);
     margin-bottom: 21px;
 }
 
 .service-option__description {
-    color: #F9F8FF;
-    font-family: Manrope;
-    font-size: 14px;
+    color: var(--color-text);
+    font-family: var(--font-family-secondary);
+    font-size: var(--font-size-sm);
     line-height: 24px;
     padding-right: 38px;
     margin-bottom: 35px;
 }
 
 .service-option__price {
-    color: #A5B4FC;
-    font-family: Montserrat;
-    font-size: 16px;
+    color: var(--color-secondary);
+    font-family: var(--font-family-primary);
+    font-size: var(--font-size-base);
     margin-bottom: 17px;
 }
 
 .service-option__details {
-    color: #F9F8FF;
-    font-family: Manrope;
-    font-size: 10px;
+    color: var(--color-text);
+    font-family: var(--font-family-secondary);
+    font-size: var(--font-size-sm);
 }

@@ -1,10 +1,10 @@
 /* title */
 
 .title {
-    color: #A5B4FC;
-    font-family: Montserrat;
-    font-size: 55px;
-    font-weight: 400;
+    color: var(--color-secondary);
+    font-family: var(--font-family-primary);
+    font-size: var(--font-size-xxl);
+    font-weight: var(--font-weight-normal);
 }
 
 .service-title-wrapper {
@@ -41,10 +41,10 @@
 /* subtitle */
 
 .subtitle {
-    color: #1F2039;
-    font-family: Montserrat;
-    font-size: 30px;
-    font-weight: 400;
+    color: var(--color-primary);
+    font-family: var(--font-family-primary);
+    font-size: var(--font-size-xl);
+    font-weight: var(--font-weight-normal);
 }
 
 /* Modifier for subtitle */
@@ -58,28 +58,28 @@
     margin-top: 65px;
     margin-bottom: 52px;
     text-align: center;
-    color: #A5B4FC;
+    color: var(--color-secondary);
 }
 
 .subtitle--about {
     margin-top: 30px;
-    color: #F9F8FF;
-    font-family: Manrope;
+    color: var(--color-text);
+    font-family: var(--font-family-secondary);
 }
 
 .subtitle--info-table {
     margin-bottom: 38px;
-    color: #A5B4FC;
+    color: var(--color-secondary);
 }
 
 .subtitle--gallery-landscape {
     margin-bottom: 53px;
     text-align: left;
-    font-family: Manrope;
+    font-family: var(--font-family-secondary);
 }
 
 .subtitle--gallery-portrait {
     margin-bottom: 53px;
     text-align: left;
-    font-family: Manrope;
+    font-family: var(--font-family-secondary);
 }

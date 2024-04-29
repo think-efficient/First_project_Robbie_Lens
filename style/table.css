@@ -11,18 +11,18 @@
 }
 
 .info-table__head {
-    color: #FFF;
-    font-family: Montserrat;
-    font-size: 16px;
+    color: var(--color-text);
+    font-family: var(--font-family-primary);
+    font-size: var(--font-size-base);
     border: 1px solid #A5B4FC;
     padding-top: 9px;
     padding-bottom: 13px;
 }
 
 .info-table__cell {
-    color: #F9F8FF;
-    font-family: Manrope;
-    font-size: 14px;
+    color: var(--color-text);
+    font-family: var(--font-family-secondary);
+    font-size: var(--font-size-sm);
     border: 1px solid #A5B4FC;
     text-align: center;
     height: 145px;

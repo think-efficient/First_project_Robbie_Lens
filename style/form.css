@@ -4,7 +4,7 @@
     width: 525px;
     margin: auto;
     margin-bottom: 194px;
-    color: white;
+    color: var(--color-accent);
 }
 
 .form__container {
@@ -35,13 +35,13 @@
 }
 
 .form__label {
-    color: #F9F8FF;
-    font-family: Manrope;
-    font-size: 18px;
+    color: var(--color-accent);
+    font-family: var(--font-family-secondary);
+    font-size: var(--font-size-md);
     margin-bottom: 10px;
 }
 
-.form__field--message {
+.form__field-large {
     flex: 1;
     display: flex;
     flex-direction: column;

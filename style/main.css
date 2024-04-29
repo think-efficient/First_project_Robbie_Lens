@@ -9,6 +9,36 @@
 @import url("button.css");
 @import url("footer.css");
 
+/* || VARIABLES */
+
+:root {
+
+    /* Base colors */
+    --color-primary: #1F2039;          /* Dark blue for main background and accents */
+    --color-secondary: #A5B4FC;        /* Light blue for interactive elements and highlights */
+    --color-text: #FFFFFF;             /* White for text on primary and secondary colors */
+    --color-text-inverse: #333333;     /* Dark gray for text on light backgrounds */
+
+    /* Utility colors */
+    --color-accent: #F9F8FF;           /* Off-white for subtle accents and UI elements */
+
+    /* Font families */
+    --font-family-primary: 'Montserrat', sans-serif;
+    --font-family-secondary: 'Manrope', sans-serif;
+
+    /* Font sizes */
+    --font-size-xxl: 55px;  /* Extra extra large size for primary headings */
+    --font-size-xl: 30px;   /* Extra large size for secondary headings */
+    --font-size-lg: 20px;   /* Large size for subheadings */
+    --font-size-md: 18px;   /* Medium size for auxiliary text or tertiary headings */
+    --font-size-base: 16px; /* Base size for general content */
+    --font-size-sm: 14px;   /* Small size for captions, legal text, or less important text */
+
+    /* Font weights */
+    --font-weight-normal: 400;
+    --font-weight-bold: 500;
+
+}
 
 /* || RESET */
 
@@ -19,5 +49,5 @@
 /* || GENERAL STYLES */
 
 .page {
-    background-color: #1F2039;
+    background-color: var(--color-primary);
 }

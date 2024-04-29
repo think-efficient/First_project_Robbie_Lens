@@ -11,9 +11,9 @@
     padding: 15px 25px;
     border-radius: 50px;
     border: none;
-    color: #FFFFFF;
+    color: var(--color-text);
     font-family: Montserrat;
-    font-size: 14px;
+    font-size: var(--font-size-sm);
     text-transform: uppercase;
     background: linear-gradient(#8e86b5, #acaeed);
     text-decoration: none;
