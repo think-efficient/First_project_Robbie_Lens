@@ -3,15 +3,26 @@
     flex-direction: column;
     width: 525px;
     margin: auto;
-    margin-bottom: 194px;
+    padding: 65px 0px 190px 0px;
     color: var(--color-accent);
+}
+
+.form__title-wrapper {
+    margin-bottom: 52px;
+    text-align: center;
+}
+
+.form__title {
+    font-family: var(--font-family-primary);
+    font-size: var(--font-size-xl);
+    font-weight: var(--font-weight-normal);
+    color: var(--color-secondary);
 }
 
 .form__container {
     display: flex;
     flex-direction: row;
     gap: 20px;
-    margin-bottom: 3.5px;
 }
 
 .form__field {

@@ -1,45 +1,66 @@
-.service-options-container {
+.service__container {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     max-width: 1040px;
     margin: 0 auto;
-    gap: 103px;
+    margin-top: 140px;
     margin-bottom: 85px;
 }
 
-.service-option {
+.service__title-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 110px;
+}
+
+.service__title {
+    font-family: var(--font-family-primary);
+    font-size: var(--font-size-xxl);
+    font-weight: var(--font-weight-normal);
+    color: var(--color-secondary);
+}
+
+.service__grid {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.service__grid-item {
     width: 278px;
     height: 295px;
     border-right: 1px var(--color-secondary) solid;
     border-bottom: 1px var(--color-secondary) solid;
 }
 
-.service-option__category {
-    color: var(--color-secondary);
+.service__label {
+    margin-bottom: 20px;
     font-family: var(--font-family-primary);
     font-size: var(--font-size-lg);
     font-weight: var(--font-weight-normal);
-    margin-bottom: 21px;
+    color: var(--color-secondary);
 }
 
-.service-option__description {
-    color: var(--color-text);
-    font-family: var(--font-family-secondary);
-    font-size: var(--font-size-sm);
-    line-height: 24px;
+.service__description {
     padding-right: 38px;
     margin-bottom: 35px;
-}
-
-.service-option__price {
-    color: var(--color-secondary);
-    font-family: var(--font-family-primary);
-    font-size: var(--font-size-base);
-    margin-bottom: 17px;
-}
-
-.service-option__details {
-    color: var(--color-text);
     font-family: var(--font-family-secondary);
     font-size: var(--font-size-sm);
+    color: var(--color-text);
+    line-height: 24px;
+}
+
+.service__price {
+    margin-bottom: 17px;
+    font-family: var(--font-family-primary);
+    font-size: var(--font-size-base);
+    color: var(--color-secondary);
+}
+
+.service__details {
+    font-family: var(--font-family-secondary);
+    font-size: var(--font-size-sm);
+    color: var(--color-text);
 }

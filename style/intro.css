@@ -9,9 +9,16 @@
     gap: 150px;
 }
 
+.intro__title {
+    font-family: var(--font-family-primary);
+    font-size: var(--font-size-xxl);
+    font-weight: var(--font-weight-normal);
+    color: var(--color-secondary);
+}
+
 .intro__text {
-    color: var(--color-accent);
+    margin: 20px 0px 50px 0px;
     font-family: var(--font-family-secondary);
     font-size: var(--font-size-lg);
-    margin-bottom: 50px;
+    color: var(--color-accent);
 }

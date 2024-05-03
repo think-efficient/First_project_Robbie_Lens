@@ -32,7 +32,7 @@
             <!-- Introduction Block -->
             <section class="intro">
                 <div class="intro__container">
-                    <h1 class="title title--intro">Robbie Lens Photographie</h1>
+                    <h1 class="intro__title">Robbie Lens Photographie</h1>
                     <p class="intro__text">
                         Où professionalisme s’allie avec passion. 
                         Depuis plus de 5 ans maintenant, 
@@ -47,29 +47,42 @@
                     <img class="intro__image" src="images/robbie-lens.png" alt="Photographie par Robbie Lens">
                 </div>
             </section>
--
+
             <!-- Gallery Block -->
             <section class="gallery">
                 <div class="gallery__container">
-                    <h2 class="subtitle subtitle--gallery-home">Mon dernier projet</h2>
-                    <div class="gallery__content">
-                        <img class="gallery__image" src="images/accueil/element-1.png" alt="Twelve apostles - Australie">
-                        <img class="gallery__image" src="images/accueil/element-2.png" alt="Wai-O-Tapu - Nouvelle-Zélande">
-                        <img class="gallery__image" src="images/accueil/element-3.png" alt="Parc National d’Abel Tasman - Nouvelle-Zélande">
-                        <img class="gallery__image" src="images/accueil/element-4.png" alt="Lac Rotorua - Nouvelle-Zélande">
-                        <img class="gallery__image" src="images/accueil/element-5.png" alt="Milford Sound - Nouvelle-Zélande">
-                        <img class="gallery__image" src="images/accueil/element-6.png" alt="Lac Wanaka - Nouvelle-Zélande">
+                    <div class="gallery__title-wrapper">
+                        <h2 class="gallery__title">Mon dernier projet</h2>
+                    </div>
+                    <div class="gallery__grid">
+                        <div class="gallery__item">
+                            <img class="gallery__image" src="images/accueil/element-1.png" alt="Twelve apostles - Australie">
+                        </div>
+                        <div class="gallery__item">
+                            <img class="gallery__image" src="images/accueil/element-2.png" alt="Wai-O-Tapu - Nouvelle-Zélande">
+                        </div>
+                        <div class="gallery__item">
+                            <img class="gallery__image" src="images/accueil/element-3.png" alt="Parc National d’Abel Tasman - Nouvelle-Zélande">
+                        </div>
+                        <div class="gallery__item">
+                            <img class="gallery__image" src="images/accueil/element-4.png" alt="Lac Rotorua - Nouvelle-Zélande">
+                        </div>
+                        <div class="gallery__item">
+                            <img class="gallery__image" src="images/accueil/element-5.png" alt="Milford Sound - Nouvelle-Zélande">
+                        </div>
+                        <div class="gallery__item">
+                            <img class="gallery__image" src="images/accueil/element-6.png" alt="Lac Wanaka - Nouvelle-Zélande">
+                        </div>
                     </div>
                 </div>
             </section>
 
             <!-- Form Block -->
-            <div class="form">
-
-                <h2 class="subtitle subtitle--form">Parlons de votre projet</h2>
-
+            <section class="form">
+                <div class="form__title-wrapper">
+                    <h2 class="form__title">Parlons de votre projet</h2>
+                </div>
                 <form action="" method="get">
-
                     <div class="form__container">
                         <div class="form__field">
                             <label class="form__label" for="nom">Nom</label>
@@ -80,32 +93,26 @@
                             <input class="form__input" type="email" name="email" id="email">
                         </div>
                     </div>
-
                     <div class="form__field-large">
                         <label class="form__label" for="message">Message</label>
                         <textarea class="form__textarea" name="message" id="message"></textarea>
                     </div>
-
                     <div class="button-wrapper">
                         <input class="button" type="submit" value="ENVOYER">
                     </div>
-                    
                 </form>
-            </div>
+            </section>
             
         </main>
 
         <!-- Footer Block -->
         <footer class="footer">
-
             <div class="footer__container">
-
                 <div class="footer__logo">
                     <a href="">
                         <img class="footer__logo-img" src="images/logo.png" alt="logo robbie-lens">
                     </a>
                 </div>
-                
                 <div class="footer__social">
                     <a href="https://twitter.com/" target="_blank">
                         <img class="footer__social-icon" src="images/twitter.png" alt="logo twitter">
@@ -114,9 +121,7 @@
                         <img class="footer__social-icon" src="images/instagram.png" alt="logo instagram">
                     </a>
                 </div>
-
             </div>
-
         </footer>
         
     </body>
