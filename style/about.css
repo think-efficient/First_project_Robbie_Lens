@@ -1,12 +1,12 @@
 .about {
-    padding-top: 80px;
-    padding-bottom: 80px;
-    max-width: 668px;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    max-width: 35vw;
     margin-inline: auto;
 }
 
 .about__title-wrapper {
-    padding-inline-start: 20px;
+    padding-inline-start: 1rem;
 }
 
 .about__title {
@@ -18,8 +18,8 @@
 
 .about__container {
     position: relative;
-    padding: 101px 77px 75px 75px;
-    margin-bottom: 30px;
+    padding: 6rem 4rem 4rem 4rem;
+    margin-bottom: 4rem;
 }
 
 .about__text {
@@ -29,7 +29,7 @@
 }
 
 .about__subtitle-wrapper {
-    margin-top: 30px;
+    margin-top: 2rem;
 }
 
 .about__subtitle {
@@ -40,13 +40,13 @@
 }
 
 .about__list {
-    margin-top: 30px;
+    margin-top: 2rem;
 }
 
 .about__list-item {
-    color: var(--color-text);
     font-family: var(--font-family-secondary);
     font-size: var(--font-size-base);
+    color: var(--color-text);
 }
 
 .about__border-vertical {
@@ -54,7 +54,7 @@
     right: 0;
     bottom: 0;
     border-right: 1px solid var(--color-secondary);
-    height: 407px;
+    height: 25rem;
 }
 
 .about__border-horizontal {
@@ -62,5 +62,5 @@
     bottom: 0;
     right: 0;
     border-bottom: 1px solid var(--color-secondary);
-    width: 315px;
+    width: 20rem;
 }

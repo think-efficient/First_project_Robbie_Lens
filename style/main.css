@@ -27,12 +27,12 @@
     --font-family-secondary: 'Manrope', sans-serif;
 
     /* Font sizes */
-    --font-size-xxl: 55px;  /* Extra extra large size for primary headings */
-    --font-size-xl: 30px;   /* Extra large size for secondary headings */
-    --font-size-lg: 20px;   /* Large size for subheadings */
-    --font-size-md: 18px;   /* Medium size for auxiliary text or tertiary headings */
-    --font-size-base: 16px; /* Base size for general content */
-    --font-size-sm: 14px;   /* Small size for captions, legal text, or less important text */
+    --font-size-xxl: 3.5rem;  /* Extra extra large size for primary headings */
+    --font-size-xl: 1.8rem;   /* Extra large size for secondary headings */
+    --font-size-lg: 1.25rem;   /* Large size for subheadings */
+    --font-size-md: 1.125rem;   /* Medium size for auxiliary text or tertiary headings */
+    --font-size-base: 1rem; /* Base size for general content */
+    --font-size-sm: 0.875rem;   /* Small size for captions, legal text, or less important text */
 
     /* Font weights */
     --font-weight-normal: 400;
@@ -60,8 +60,8 @@
 }
 
 .main__title-wrapper {
-    max-width: 1008px;
+    max-width: 63rem;
     margin: 0 auto;
     text-align: left;
-    padding: 80px;
+    padding: 5rem;
 }

@@ -3,10 +3,10 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;  
-    width: 50%;
+    width: 50vw;
     margin: auto;
-    padding: 80px;
-    gap: 150px;
+    padding: 5rem;
+    gap: 9rem;
 }
 
 .intro__title {
@@ -17,7 +17,7 @@
 }
 
 .intro__text {
-    margin: 20px 0px 50px 0px;
+    margin: 1.25rem 0 3.125rem 0;
     font-family: var(--font-family-secondary);
     font-size: var(--font-size-lg);
     color: var(--color-accent);

@@ -1,14 +1,14 @@
 .table {
-    margin-bottom: 374px;    
+    margin-bottom: 23rem;    
 }
 
 .table__container {
     margin: 0 auto;
-    max-width: 1040px;
+    max-width: 65rem;
 }
 
 .table__title-wrapper{
-    margin-bottom: 40px;
+    margin-bottom: 2.5rem;
 }
 
 .table__title {
@@ -29,8 +29,8 @@
     font-family: var(--font-family-primary);
     font-size: var(--font-size-base);
     border: 1px solid var(--color-secondary);
-    padding-top: 9px;
-    padding-bottom: 13px;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
 }
 
 .table__cell {
@@ -39,5 +39,5 @@
     font-size: var(--font-size-sm);
     border: 1px solid var(--color-secondary);
     text-align: center;
-    height: 145px;
+    height: 9rem;
 }
