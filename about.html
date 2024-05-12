@@ -3,6 +3,7 @@
 
     <head>
         <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>À propos - Robbie Lens Photographie</title>
         <link rel="stylesheet" href="style/main.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -15,12 +16,16 @@
 <!--------------------------------------------------------- Header Block --------------------------------------------------------->
         <header class="header">
             <nav class="header__nav">
-                <img class="header__logo" src="images/logo.png" alt="Logo de Robbie Lens Photographie">
+                <div class="header__logo-wrapper">
+                    <img class="header__logo" src="images/logo.png" alt="Logo de Robbie Lens Photographie">
+                </div>
                 <div class="header__menu">
-                    <a class="header__menu-link" href="home.html">Accueil</a>
-                    <a class="header__menu-link" href="about.html">À propos</a>
-                    <a class="header__menu-link header__menu-link--hidden-mobile" href="pricing.html">Tarifs</a>
-                    <a class="header__menu-link" href="portfolio.htm">Portfolio</a>                
+                    <ul class="header__menu-list">
+                        <li class="header__menu-list-item"><a class="header__menu-link" href="home.html">Accueil</a></li>
+                        <li class="header__menu-list-item"><a class="header__menu-link" href="about.html">À propos</a></li>
+                        <li class="header__menu-list-item header__menu-list-item--hidden-mobile"><a class="header__menu-link" href="pricing.html">Tarifs</a></li>
+                        <li class="header__menu-list-item"><a class="header__menu-link" href="portfolio.htm">Portfolio</a></li>
+                    </ul>              
                 </div>
             </nav>
         </header>

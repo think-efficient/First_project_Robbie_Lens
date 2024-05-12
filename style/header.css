@@ -1,7 +1,7 @@
 /* header.css */
 
 .header {
-    padding: 1.25rem 3.125rem;
+    width: 100%;
     background-color: var(--color-accent);
 }
 
@@ -9,42 +9,57 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
+    padding: 1.25rem 3.125rem;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.header__menu-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.header__menu-list-item {
+    margin: 0.5rem 0;
+    width: 10rem;
 }
 
 .header__menu-link {
-    display: inline-block;
-    padding: 0.625rem 0;
-    margin-left: 8.125rem;
     color: var(--color-text-inverse);
     font-family: var(--font-family-secondary);
     font-size: var(--font-size-md);
-    text-decoration: none;
 }
 
 .header__menu-link:hover {
     text-decoration: underline;
 }
 
-@media (max-width: 375px) {
+ @media (max-width: 420px) {
     .header__nav {
         flex-direction: column;
         align-items: center;
     }
 
-    .header__menu {
+    .header__menu-list {
         display: flex;
         flex-direction: column;
         align-items: center;
         margin-top: 1.5625rem;
     }
 
-    .header__menu-link {
-        margin-left: 0;
+    .header__menu-list-item {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 1rem;
     }
 
-/* Modifier for hiding the 'Tarifs' link on mobile devices */
+    .header__menu-link {
+        margin: 0;
+    }
 
-    .header__menu-link--hidden-mobile {
+    .header__menu-list-item--hidden-mobile {
         display: none;
     }
 }
+
