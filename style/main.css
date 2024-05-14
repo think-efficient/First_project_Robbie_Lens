@@ -27,7 +27,7 @@
     --font-family-secondary: 'Manrope', sans-serif;
 
     /* Font sizes */
-    --font-size-xxl: 3.5rem;  /* Extra extra large size for primary headings */
+    --font-size-xxl: clamp(2.5rem, 3vw, 3.2rem);  /* Extra extra large size for primary headings */
     --font-size-xl: 1.8rem;   /* Extra large size for secondary headings */
     --font-size-lg: 1.25rem;   /* Large size for subheadings */
     --font-size-md: 1.125rem;   /* Medium size for auxiliary text or tertiary headings */
