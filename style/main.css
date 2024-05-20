@@ -1,3 +1,6 @@
+/* || IMPORTS */
+
+/* Import External CSS Files */
 @import url("header.css");
 @import url("headings.css");
 @import url("intro.css");
@@ -12,7 +15,6 @@
 /* || VARIABLES */
 
 :root {
-
     /* Base colors */
     --color-primary: #1F2039;          /* Dark blue for main background and accents */
     --color-secondary: #A5B4FC;        /* Light blue for interactive elements and highlights */
@@ -37,7 +39,6 @@
     /* Font weights */
     --font-weight-normal: 400;
     --font-weight-bold: 500;
-
 }
 
 /* || RESET */
@@ -49,12 +50,20 @@
     list-style: none;
 }
 
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
 /* || GENERAL STYLES */
 
+/* General Styles for the Page */
 .page {
     background-color: var(--color-primary);
 }
 
+/* General Styles for Main Title */
 .main__title {
     font-family: var(--font-family-primary);
     font-size: var(--font-size-xxl);

@@ -12,7 +12,6 @@
     flex-wrap: wrap;
     padding: 1.25rem 3.125rem;
     width: 100%;
-    box-sizing: border-box;
 }
 
 .header__menu-list {
