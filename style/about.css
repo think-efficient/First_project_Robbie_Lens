@@ -1,12 +1,15 @@
 .about {
-    padding-top: 5rem;
-    padding-bottom: 5rem;
-    max-width: 35vw;
-    margin-inline: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5rem 1rem;
+    max-width: 45rem;
+    margin: 0 auto;
 }
 
 .about__title-wrapper {
-    padding-inline-start: 1rem;
+    padding: 0 1rem;
+    width: 100%;
 }
 
 .about__title {
@@ -18,8 +21,16 @@
 
 .about__container {
     position: relative;
-    padding: 6rem 4rem 4rem 4rem;
-    margin-bottom: 4rem;
+    padding: clamp(2rem, 6vw, 6rem) clamp(1rem, 4.5vw, 4rem);
+    margin-bottom: 3rem;
+    border-inline-end: 4px solid;
+    border-block-end: 4px solid;
+    border-image-source: 
+        radial-gradient(
+            circle at bottom right,
+            var(--color-secondary),
+            transparent 50%);
+    border-image-slice: 1;
 }
 
 .about__text {
@@ -47,20 +58,4 @@
     font-family: var(--font-family-secondary);
     font-size: var(--font-size-base);
     color: var(--color-text);
-}
-
-.about__border-vertical {
-    position: absolute;
-    right: 0;
-    bottom: 0;
-    border-right: 1px solid var(--color-secondary);
-    height: 25rem;
-}
-
-.about__border-horizontal {
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    border-bottom: 1px solid var(--color-secondary);
-    width: 20rem;
 }
